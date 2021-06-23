@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="The official portfolio of Abdelrhman Araby.. Web developer and ui ux designer and programmer">
+  <link rel="icon" type="image/x-icon" href="img/apex-legends-icon.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Abdelrhman Araby Portfolio</title>
+</head>
+
+<body id="bg-img">
+
+  <div id="preloader"></div>
+
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item current">
+          <a href="index.html" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">
+            About Me
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="work.html" class="nav-link">
+            My Work
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">
+            How To Reach Me
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+    <h1 class="lg-heading">
+        <span class="initial first">A</span>bdelrahman <span class="initial first">A</span><span class="text-secondary raby">raby</span>
+    </h1>
+    <h2 class="sm-heading">
+      Web Developer, Programmer, UI<span class="sml">/</span>UX Designer
+    </h2>
+    <div class="icons">
+      <a href="#!">
+        <i class="fab fa-twitter fa-2x"></i>
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=100001920205391" target="_blank">
+        <i class="fab fa-facebook fa-2x"></i>
+      </a>
+      <a href="linkedin.com/in/abdelrhman-araby-a7a3581b5" target="_blank">
+        <i class="fab fa-linkedin fa-2x"></i>
+      </a>
+      <a href="#!">
+        <i class="fab fa-github fa-2x"></i>
+      </a>
+    </div>
+  </main>
+    
+    <div class="hire-me">
+        <a href="contact.html"><h2>Hire Me</h2></a>
+    </div>
+    
+    <div class="laptop">
+        <a href="work.html" class="laptop-screen"></a>
+    </div>
+       
+    <div class="div-arrow">
+        <p class="p-arrow">*Click on the<br>laptop screen<br>to see my work*</p>
+        <img class="arrow" src="img/Arrow.png">
+    </div>
+
+    <footer id="main-footer" class="index-edit">
+      <h2 class="footer-text index-ed">
+      Copyright &copy; 2021 Made By Abdelrahman Araby</h2>
+    </footer>
+
+    <div id="cursor"></div>
+
+  <script src="js/main.js"></script>
+  <script>
+
+    var cursor = document.getElementById("cursor");
+
+    document.onmousemove = function(e){
+        cursor.style.left = (e.pageX - 25) + "px";
+        cursor.style.top = (e.pageY - 25)+ "px";
+        cursor.style.display = "block";
+    }
+
+</script>
+</body>
+
+</html>
