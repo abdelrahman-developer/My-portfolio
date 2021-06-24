@@ -243,7 +243,7 @@ main .icons a:hover {
     height: 50px;
     width: 140px;
     background: aqua;
-    position: absolute;
+    position: fixed;
     right: 30px;
     bottom: 0;
     display: flex;
