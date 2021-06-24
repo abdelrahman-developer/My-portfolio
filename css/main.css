@@ -275,7 +275,7 @@ main#home h1 {
 
 .laptop .laptop-screen{
     height: 148px;
-    width: 380px;
+    width: 364px;
     background: transparent;
     cursor: pointer;
     position: absolute;
@@ -299,27 +299,27 @@ main#home h1 {
 
 .div-arrow{
     position: absolute;
-    top: 60px;
+    top: 170px;
     right: 30px;
-    height: 260px;
-    overflow: hidden;
+    height: 160px;
+    width: 104px;
 }
 
 .p-arrow{
     position: absolute;
-    top: 179px;
-    right: 0px;
+    top: 84px;
+    right: 11px;
     color: black;
-    transform: rotate(-20deg);
-    font-size: 13px;
+    transform: rotate(-10deg);
+    font-size: 10px;
 }
 
 .arrow{
-    height: 180px;
+    height: 113px;
     position: relative;
-    top: 70px;
-    right: -10px;
-    transform: rotate(-20deg);
+    top: 6px;
+    right: 17px;
+    transform: rotate(-8deg);
     filter: invert(1);
 }
 
