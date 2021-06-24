@@ -274,15 +274,16 @@ main#home h1 {
 }
 
 .laptop .laptop-screen{
-    height: 178px;
-    width: 420px;
+    height: 148px;
+    width: 380px;
     background: transparent;
     cursor: pointer;
     position: absolute;
-    top: 65px;
+    top: 60px;
     right: 110px;
     transform: skewX(-13deg) rotate(6deg) skewY(1deg);
     transition: 0.3s;
+}
 }
 
 .laptop .laptop-screen:hover{
